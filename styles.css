@@ -98,7 +98,7 @@ nav .fa{
         z-index: 2;
         position: absolute;
         top: 0;
-        right: -300px;
+        right: -9999px;
         text-align: left;
         transition: .7s;
         
