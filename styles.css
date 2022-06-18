@@ -208,6 +208,96 @@ h3{
    transition: 0.9s; 
 }
 .layer:hover h3 {
-    bottom: 45%;
+    bottom: 42%;
     opacity: 1;
 }
+/* ---facilities---- */
+
+.facilities{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.facilities h3{
+    font-weight: 600;
+    font-size: 32px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.facilities-col h3{
+    color: #fff3f3f3;
+    padding-top: 15px ;
+    font-size: 20px;
+}
+.facilities-col p{
+    color: #fff3f3f3;
+    padding-left: 15px;
+    text-align: left;
+}
+
+/* ---Testimonial---- */
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonials h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: #fff3f3;
+    text-align: left;
+    cursor: pointer;
+    padding: 25px;
+    display: flex;
+    position: relative;
+}
+.testimonial-col img{
+    position: absolute;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.testimonial-col p{
+    margin-left: 55px;
+    padding-top: 0;
+}
+.testimonial-col h4{
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 55px;
+}
+.testimonial-col .fa{
+   
+    padding-left: 55px;
+}
+.testimonial-col i{
+    color: #f44336;
+}
+
+
+
+
+
+
+
+
+
